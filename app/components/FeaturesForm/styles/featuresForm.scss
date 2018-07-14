@@ -20,14 +20,15 @@
 }
 
 .container {
-  margin-left: 9%;
   margin-bottom: 100px;
   display: grid;
+  justify-content: center;
   grid-auto-columns: 400px;
   
   .usabilitySection {
     grid-column: 1 / 2;
     display: grid;
+    justify-content: center;
     grid-template-columns: 90px 220px;
 
     .icon {
@@ -42,6 +43,7 @@
   .parallaxSection {
     grid-column: 2 / 3;
     display: grid;
+    justify-content: center;
     grid-template-columns: 90px 220px;
 
     .icon {
@@ -55,6 +57,7 @@
   .colorsSection {
     grid-column: 3 / 4;
     display: grid;
+    justify-content: center;
     grid-template-columns: 90px 220px;
 
     .icon {
