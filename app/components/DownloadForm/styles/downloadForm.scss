@@ -1,0 +1,58 @@
+img.backgroundImage {
+    min-height: 100%;
+    min-width: 1024px;
+      
+    width: 100%;
+    height: auto;
+      
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+.container {
+  position: relative;
+}
+
+.bigText {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    margin-right: 52%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 120%;
+
+    .smallText {
+      position: absolute;
+      margin-right: 20%;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12pt;
+      text-transform: none;
+      line-height: 180%;
+      font-weight: normal;
+
+      .buttonContainer {
+        position: absolute;
+        margin-top: 2%;
+
+        img.googleButton {
+          margin-right: 10px;
+        }
+
+        img.appleButton {
+          
+        }
+
+      }
+
+    }
+}
+

@@ -1,0 +1,76 @@
+.headlineGlobal{
+    width: 100%;
+    padding: 1% 10% 1% 10%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.headlineGlobalTop {
+    background-color: #648cff;
+}
+
+.headlineGlobalBottom {
+    background-color: #353854;
+}
+
+.headlineGlobal {
+    
+    .headlineContainer {
+        margin-top: 15px;
+    }
+
+    .buttonContainer {
+        margin-top: 10px;
+        margin-left: 10%;
+
+        Button {
+            margin: 0 20px;
+            text-transform: 'none';
+            font-family: 'Ubuntu', sans-serif;
+        }
+    
+        .buttonTop {
+            color: white;
+        }
+    
+        .buttonBottom {
+            color: #b5b5c8;
+        }
+    }
+    
+    .socialButton {
+        margin-top: 5px;
+        margin-left: auto;
+    }
+}
+
+.socialImage {
+    height: 25px;
+    width: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socialImageTop g path {
+    fill: white;
+}
+
+.socialImageBottom g path {
+    fill: #b5b5c8;
+}
+
+.headlineTop {
+    color: white;
+    font-weight: bold;
+}
+
+.headlineBottomFun {
+    color: #fc6a42;
+    font-weight: bold;
+}
+
+.headlineBottomWeather {
+    color: #648cff;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.mainTitle {
+    position: relative;
+    margin-top: 5%;
+    color: #648cff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+    .subtitle {
+      margin-top: 4px;
+      margin-bottom: 50px;
+      color: #999999;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12pt;
+      text-transform: none;
+      font-weight: normal;
+    }
+}
+
+.container {
+  margin-left: 20%;
+  margin-bottom: 2%;
+  display: grid;
+  grid-auto-columns: 380px;
+  grid-column-gap: 5%;
+
+  .leftSection {
+    grid-column: 1 / 2;
+  }
+
+  .rightSection {
+    grid-column: 2 / 3;
+  }
+}
+
+.author {
+  margin-top: 8px;
+  font-size: 9pt;
+  color: #353854;
+}
+
+.quoteSymbol {
+  color: #648cff;
+  font-size: 64pt;
+  margin: 0;
+}
+
+.quoteUpper {
+  @extend .quoteSymbol;
+  margin-bottom: -50px;
+}
+
+.quoteBottom {
+  @extend .quoteSymbol;
+  text-align: right;
+  margin-top: -30px;
+}

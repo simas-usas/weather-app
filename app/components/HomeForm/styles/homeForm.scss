@@ -1,0 +1,64 @@
+img.backgroundImage {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+      
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+      
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+.container {
+  position: relative;
+}
+
+.bigText {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin-right: 52%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40pt;
+    font-weight: bold;
+    line-height: 120%;
+
+    .smallText {
+      position: absolute;
+      margin-right: 30%;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12pt;
+      line-height: 180%;
+      font-weight: normal;
+
+      .buttonContainer {
+        position: absolute;
+        margin-top: 5%;
+
+        Button {
+          color: white;
+          text-transform: 'none';
+          font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .downloadButton {
+          background-color: #fc6a42;     
+          margin-right: 10px;
+        }
+        
+        .featuresButton {
+          background-color: #4466c9;
+        }
+      }
+
+    }
+}
+

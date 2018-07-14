@@ -1,0 +1,79 @@
+.mainTitle {
+    position: relative;
+    margin-top: 5%;
+    color: #648cff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+    .subtitle {
+      margin-top: 4px;
+      margin-bottom: 70px;
+      color: #999999;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 12pt;
+      text-transform: none;
+      font-weight: normal;
+    }
+}
+
+.container {
+  margin-left: 9%;
+  margin-bottom: 100px;
+  display: grid;
+  grid-auto-columns: 400px;
+  
+  .usabilitySection {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 90px 220px;
+
+    .icon {
+      grid-column: 1 / 2;
+    }
+    .description {
+      grid-column: 2 / 3;
+    }
+
+  }
+
+  .parallaxSection {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 90px 220px;
+
+    .icon {
+      grid-column: 1 / 2;
+    }
+    .description {
+      grid-column: 2 / 3;
+    }
+  }
+
+  .colorsSection {
+    grid-column: 3 / 4;
+    display: grid;
+    grid-template-columns: 90px 220px;
+
+    .icon {
+      grid-column: 1 / 2;
+    }
+    .description {
+      grid-column: 2 / 3;
+    }
+  }
+  
+}
+
+.descriptionTitle {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.descriptionText {
+  margin-top: 8px;
+  font-size: 10pt;
+  color: #aeaeae;
+}
