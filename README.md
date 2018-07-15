@@ -9,8 +9,7 @@ Before running this app, make sure the most recent version of [Node.js](https://
 ```sh
 cd weather-app/
 
-npm install react react-dom
-npm install react-scripts
+npm install
 npm start
 ```
 
